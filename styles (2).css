@@ -1,0 +1,40 @@
+/* Minimal, clean landing styles */
+:root{
+  --bg:#0b1220;
+  --card:#0f1a30;
+  --ink:#e8eefc;
+  --muted:#9fb3d1;
+  --accent:#5aa0ff;
+  --accent-2:#7ee0ff;
+  --shadow: 0 20px 60px rgba(0,0,0,.45);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:radial-gradient(1200px 600px at 20% -10%,rgba(90,160,255,.18),transparent),radial-gradient(1000px 600px at 110% 10%,rgba(126,224,255,.12),transparent),var(--bg);color:var(--ink);font-family:'Inter',system-ui,Segoe UI,Roboto,Arial,sans-serif;line-height:1.5}
+.wrap{max-width:980px;margin:0 auto;padding:48px 24px}
+.hero{text-align:center;margin-bottom:24px}
+.logo{height:56px;margin-bottom:12px;opacity:.95}
+h1{font-size:48px;margin:0 0 8px 0;letter-spacing:.2px}
+.flash{filter: drop-shadow(0 2px 8px rgba(126,224,255,.7))}
+.tag{margin:0 auto;color:var(--muted);max-width:640px}
+.card{background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.00));border:1px solid rgba(126,224,255,.18);border-radius:16px;padding:24px;box-shadow:var(--shadow);margin:28px 0}
+.card h2{margin-top:0}
+.bullets{margin:0 0 16px 0;padding-left:18px;color:var(--ink)}
+.bullets li{margin:6px 0}
+.price{display:flex;align-items:baseline;gap:12px;margin:14px 0 18px 0;flex-wrap:wrap}
+.price .label{color:var(--muted)}
+.price .amount{font-size:36px;font-weight:800;letter-spacing:.3px}
+.price .note{color:var(--muted)}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;border:1px solid rgba(126,224,255,.35);font-weight:600}
+.btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#061022;border:0}
+.btn.ghost{color:var(--ink);background:transparent}
+.trust{color:var(--muted);margin-top:10px}
+.details{margin:28px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.grid-item{background:rgba(255,255,255,.02);border:1px solid rgba(126,224,255,.12);border-radius:12px;padding:16px}
+.foot{margin-top:36px;text-align:center;color:var(--muted)}
+.tiny{font-size:12px;color:#7c8eab}
+@media (max-width:720px){
+  h1{font-size:36px}
+  .grid{grid-template-columns:1fr}
+}

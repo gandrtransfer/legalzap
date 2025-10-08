@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220" height="56" viewBox="0 0 220 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="220" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5aa0ff"/>
+      <stop offset="1" stop-color="#7ee0ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="220" height="56" rx="12" fill="url(#g)" opacity="0.12"/>
+  <text x="16" y="36" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="28" fill="#E8EEFC">LegalZap</text>
+  <text x="148" y="36" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="24" fill="#E8EEFC">.pro</text>
+  <g transform="translate(120,10)">
+    <path d="M16 0 L8 14 H16 L6 30 L22 14 H14 L22 0 Z" fill="#E8EEFC" opacity="0.95"/>
+  </g>
+</svg>
