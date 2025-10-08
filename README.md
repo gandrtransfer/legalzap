@@ -14,7 +14,7 @@ In `index.html`:
 ```js
 const DAN_URL = "https://dan.com/buy-domain/legalzap.pro";
 const AFTERNIC_URL = "https://www.afternic.com/domain/legalzap.pro";
-const CONTACT_EMAIL = "offer@legalzap.pro";
+const CONTACT_EMAIL = "ben@legalzap.pro";
 ```
 Replace with your actual listing URLs and desired contact email.
 
